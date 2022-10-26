@@ -1,1 +1,2 @@
-# web
+HTML - CSS
+JAVASCRIPT - MONGODB
