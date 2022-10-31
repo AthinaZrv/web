@@ -1,6 +1,6 @@
 
 const {MongoClient} = require('mongodb')
-const client = new MongoClient("mongodb+srv://coreos66:curvasud13@cluster0.j1fyb.mongodb.net/test", {useNewUrlParser: true , useUnifiedTopology: true});
+const client = new MongoClient("mongodb+srv://username:password@cluster0/test", {useNewUrlParser: true , useUnifiedTopology: true});
 const User = require('./User.js') // gain access to class 'User'
 
 module.exports = {
